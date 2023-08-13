@@ -207,6 +207,12 @@ body {
 .advantages-list-item {
   width: calc((100% - 72px) / 4);
 }
+.advantages-list-icon_bg {
+  background-color: rgba(222, 222, 222, 0.4);
+}
+.advantages_list_icon {
+  mar
+}
 
 .advantages-list-item-title {
   margin-bottom: 8px;
