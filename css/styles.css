@@ -301,6 +301,8 @@ body {
 }
 .description-person {
   padding: 32px 0;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .our-team-list-item-title {
   margin-bottom: 8px;
@@ -318,10 +320,7 @@ body {
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
-.social-icons-container {
-  display: flex;
-  justify-content: center;
-}
+
 .socials-list {
   justify-content: center;
   align-items: center;
@@ -336,16 +335,19 @@ body {
   height: 40px;
   border-radius: 50%;
   background-color: var(--iris);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link:focus,
 .social-link:hover {
-  background-color: var(--green);
+  background-color: var(--ocean);
 }
 .social-icon {
   display: flex;
   justify-content: center;
   align-items: center;
   fill: var(--cloud);
+  width: 16px;
+  height: 16px;
 }
 
 .our-team-list {
