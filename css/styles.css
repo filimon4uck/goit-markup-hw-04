@@ -127,7 +127,7 @@ body {
 .menu-item:focus {
   color: var(--ocean);
 }
-.menu-item.current {
+.menu-item.menu-item.current {
   color: var(--ocean);
 }
 .menu-item.current::after {
