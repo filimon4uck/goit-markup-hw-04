@@ -113,6 +113,7 @@ body {
 
 .menu-item {
   display: flex;
+  position: relative;
   padding-top: 24px;
   padding-bottom: 24px;
   font-weight: 500;
@@ -123,6 +124,15 @@ body {
 .menu-item:hover,
 .menu-item:focus {
   color: var(--ocean);
+}
+.menu-item:active::after{
+  position: absolute;
+  top: 96%;
+  content: "";
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+background: var(--ocean, #404BBF);
 }
 
 .contacts {
