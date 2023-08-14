@@ -91,9 +91,6 @@ body {
   gap: 40px;
   align-items: center;
 }
-.contact-list-item {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 .menu-list-items {
   gap: 40px;
   display: flex;
@@ -153,6 +150,7 @@ body {
   letter-spacing: 0.02em;
   font-style: normal;
   color: var(--slate);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-list-item:hover,
 .contact-list-item:focus {
