@@ -438,7 +438,9 @@ body {
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+}
+.container-logo-text {
+  margin-right: 120px;
 }
 
 .logotype-white {
